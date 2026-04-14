@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mark avatar">
+  <defs>
+    <linearGradient id="skinM" x1="0" x2="1">
+      <stop offset="0%" stop-color="#FFDCC0" />
+      <stop offset="100%" stop-color="#FFB98A" />
+    </linearGradient>
+    <linearGradient id="hairM" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3a2f2f" />
+      <stop offset="100%" stop-color="#201919" />
+    </linearGradient>
+    <filter id="softM" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="64" fill="#FCFEFF" />
+
+  <g transform="translate(64,72)" filter="url(#softM)">
+    <ellipse cx="192" cy="184" rx="148" ry="164" fill="url(#skinM)" />
+
+    <path d="M102 126 C124 66, 308 56, 328 126 C342 176, 312 202, 208 214 C140 226, 110 198, 102 154 Z" fill="url(#hairM)" />
+
+    <g>
+      <ellipse cx="162" cy="200" rx="20" ry="14" fill="#fff" />
+      <ellipse cx="162" cy="200" rx="10" ry="8" fill="#2f2524" />
+      <circle cx="158" cy="196" r="3" fill="#fff" />
+
+      <ellipse cx="268" cy="200" rx="20" ry="14" fill="#fff" />
+      <ellipse cx="268" cy="200" rx="10" ry="8" fill="#2f2524" />
+      <circle cx="264" cy="196" r="3" fill="#fff" />
+    </g>
+
+    <path d="M174 262 C202 292, 250 292, 278 262" stroke="#8f5537" stroke-width="5" stroke-linecap="round" fill="none" />
+
+    <path d="M72 326 C120 366, 304 366, 352 326 L352 380 L72 380 Z" fill="#06b6d4" />
+  </g>
+
+  <rect x="8" y="8" width="496" height="496" rx="56" stroke="#EAF4FB" stroke-width="12" fill="none" />
+</svg>

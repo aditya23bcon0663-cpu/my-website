@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" role="img" aria-label="Aselea Network logo">
+  <g transform="translate(26,20)">
+    <path
+      d="M114 15c-31 31-50 63-55 95-4 29 8 58 34 85 31-21 50-47 56-78 6-35-7-69-35-102z"
+      fill="#ef8ea4"
+    />
+    <path
+      d="M87 115c-26 24-42 49-46 75-3 24 7 48 29 70 27-17 43-38 48-62 5-29-5-56-31-83z"
+      fill="#ef8ea4"
+    />
+  </g>
+
+  <text
+    x="206"
+    y="134"
+    font-family="Brush Script MT, Segoe Script, Lucida Handwriting, cursive"
+    font-size="118"
+    font-style="italic"
+    font-weight="700"
+    fill="#ef8ea4"
+  >
+    Aselea
+  </text>
+
+  <text
+    x="224"
+    y="196"
+    font-family="Montserrat, Poppins, Segoe UI, Arial, sans-serif"
+    font-size="34"
+    letter-spacing="11"
+    font-weight="600"
+    fill="#7c4e5a"
+  >
+    NETWORK
+  </text>
+</svg>

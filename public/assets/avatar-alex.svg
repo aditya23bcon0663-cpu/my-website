@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Alex photo">
+  <defs>
+    <clipPath id="round">
+      <circle cx="256" cy="256" r="192" />
+    </clipPath>
+  </defs>
+
+  <rect width="512" height="512" rx="64" fill="#F8FAFC" />
+
+  <g clip-path="url(#round)">
+    <image href="https://images.unsplash.com/photo-1545996124-1b1916f0f3ea?auto=format&fit=crop&w=1200&q=80" x="64" y="80" width="384" height="384" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  <circle cx="256" cy="256" r="192" fill="none" stroke="#E6EEF6" stroke-width="8" />
+</svg>
